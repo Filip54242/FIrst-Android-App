@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lost Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">Play</string>
+    <string name="stats">Stats</string>
+    <string name="help">Help</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="score">Score</string>
+    <string name="player">PLAYER</string>
+    <string name="empty_leaderboard">EMPTY LEADERBOARD</string>
+    <string name="keep_first_ten">KEEP FIRST 10</string>
+    <string name="time_remaining">Time remaining </string>
+    <string name="explanation">This game is all about who has the biggest score, on the screen five birds will appear, one will be of different color, you have to swipe in the direction of which the bird flies, get it right and you get 100 points,get it wrong however and you lose 50 points.In the example here you have to swipe in the direction of the yellow bird(up).</string>
+    <string name="members_intro">Application made for the General Magic\'s course \"Developing Succesfull Application in Android\". Members: Barbu Filip Alexandru, Stefan Cosma, Tutoveanu Andrei Catalin, Bogdan Gabriel Movila</string>
+</resources>

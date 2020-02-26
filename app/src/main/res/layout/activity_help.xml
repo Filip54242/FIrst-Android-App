@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e3137"
+    android:screenOrientation="portrait"
+    tools:context=".HelpActivity">
+
+    <EditText
+        android:id="@+id/helpTitle"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="@string/help"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/appDetailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/appDetailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2e3137"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/members_intro"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/gameExplicationText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpTitle" />
+
+    <EditText
+        android:id="@+id/gameExplicationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/explanation"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/exampleImgView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appDetailText" />
+
+    <ImageView
+        android:id="@+id/exampleImgView"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameExplicationText"
+        app:srcCompat="@raw/backgroud_help" />
+
+    <ImageView
+        android:id="@+id/examplebird1"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/exampleImgView"
+        app:layout_constraintStart_toStartOf="@+id/exampleImgView"
+        app:layout_constraintTop_toTopOf="@+id/exampleImgView"
+        app:srcCompat="@raw/bird14" />
+
+    <ImageView
+        android:id="@+id/examplebird2"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="@+id/exampleImgView"
+        app:layout_constraintStart_toEndOf="@+id/examplebird1"
+        app:layout_constraintTop_toTopOf="@+id/exampleImgView"
+        app:srcCompat="@raw/bird12" />
+
+    <ImageView
+        android:id="@+id/examplebird3"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/exampleImgView"
+        app:layout_constraintEnd_toStartOf="@+id/examplebird4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/examplebird2"
+        app:layout_constraintTop_toTopOf="@+id/exampleImgView"
+        app:srcCompat="@raw/bird51" />
+
+    <ImageView
+        android:id="@+id/examplebird4"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="@+id/exampleImgView"
+        app:layout_constraintEnd_toStartOf="@+id/examplebird5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/examplebird3"
+        app:layout_constraintTop_toTopOf="@+id/exampleImgView"
+        app:srcCompat="@raw/bird13" />
+
+    <ImageView
+        android:id="@+id/examplebird5"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="@+id/exampleImgView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/examplebird4"
+        app:layout_constraintTop_toTopOf="@+id/exampleImgView"
+        app:srcCompat="@raw/bird13" />
+
+
+</android.support.constraint.ConstraintLayout>

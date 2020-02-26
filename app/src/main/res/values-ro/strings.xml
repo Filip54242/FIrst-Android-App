@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lost Game</string>
+    <string name="action_settings">Setari</string>
+    <string name="play">Joaca</string>
+    <string name="stats">Statistici</string>
+    <string name="help">Ajutor</string>
+    <string name="name">Nume</string>
+    <string name="date">Data</string>
+    <string name="score">Scor</string>
+    <string name="player">JUCATOR</string>
+    <string name="empty_leaderboard">Sterge Clasament</string>
+    <string name="keep_first_ten">Pastreaza primele 10</string>
+    <string name="time_remaining">Timp ramas </string>
+    <string name="explanation">Acest joc se bazeaza pe cine are cel mai mare scor,pe ecran vor aparea cinci pasari,una fiind de culoare diferita,scopul este sa glisati in directia in care pasarea zboara, glisati corect si veti obtine 100 de puncte, gresiti insa si veti pierde 50 de puncte.In exemplul de aici trebuie sa glisati in directia pasarii galbene(in sus).</string>
+    <string name="members_intro">Aplicatie facuta pentru cursul firmei General Magic denumit \"Developing Succesfull Application in Android\". Membrii: Barbu Filip Alexandru, Stefan Cosma, Tutoveanu Andrei Catalin, Bogdan Gabriel Movila</string>
+</resources>
